@@ -1,62 +1,65 @@
 # SECURE HEALTH GENERAL HOSPITAL
 ## Hospital Performance Dashboard | 2024–2025
 
-An interactive hospital performance dashboard developed using Microsoft Excel to analyse patient admissions, demographics, departmental workload, payment status, insurance coverage and diagnosis patterns.
+An interactive hospital performance dashboard developed using Microsoft Excel to analyse hospital admissions, patient demographics, departmental workload, payment status, insurance coverage and diagnosis patterns.
 
 ![Introductory Image](SECURE_HEALTH_DASHBOARD/Introductory_Image.png)
 
 ## 1. Introduction
 
-This project focuses on analysing hospital patient records and developing an interactive dashboard to support management reporting at Secure Health General Hospital.
+This project demonstrates how Microsoft Excel can be used to transform healthcare data into meaningful visual insights for hospital performance monitoring and management reporting.
 
-The dashboard transforms raw patient data into meaningful visual insights, helping management understand patient distribution, admission trends, departmental activity and financial indicators.
+The dashboard provides an overview of hospital operations, helping decision-makers explore admission trends, patient demographics, departmental activity and financial indicators.
 
-## 2. About the Dataset
+## 2. Dataset Overview
 
-The classroom dataset contains 1,000 patient records covering 2024 and 2025.
+The analysis is based on a classroom dataset containing 1,000 patient records covering 2024 and 2025.
 
-The analysis uses fields relating to:
+The analysis considers:
 - Patient demographics
-- Admission dates and months
+- Admission dates and trends
 - Hospital departments
-- Medical diagnoses
-- Length of hospital stay
-- Billing amounts
-- Payment status
+- Diagnoses
+- Billing and payment status
 - Insurance coverage
+- Length of hospital stay
 
-**Privacy note:** The original patient-level dataset is not included in this public-facing project documentation to protect patient confidentiality.
+**Privacy notice:** The original patient-level dataset is not included in this repository. The published Excel workbook contains aggregated analysis and dashboard information only.
 
 ## 3. Problem Statement
 
-Hospital management requires an accessible reporting solution to monitor patient admissions, demographic patterns, departmental workload and financial performance.
+Hospital management needs a clear and accessible way to monitor patient admissions, understand departmental workload and review financial performance.
 
-Without consolidated reporting, identifying trends and comparing key operational indicators can be difficult.
+Without an organised reporting system, identifying operational patterns and making informed decisions can be difficult.
 
-This project addresses the reporting need through an interactive Microsoft Excel dashboard.
+This project addresses that challenge through an interactive Excel dashboard.
 
-## 4. Tools and Techniques
+## 4. Tools and Methodology
 
+**Tools used:**
 - Microsoft Excel
-- Excel Tables
-- Structured references and formulas
-- KPI calculations
 - PivotTables
 - PivotCharts
-- Interactive slicers
-- Data cleaning and preparation
-- Data visualisation
+- Excel slicers
+- Excel formulas
+- Data cleaning and analysis
 
-## 5. Dashboard Visualization
+**Methodology:**
+1. Reviewed and cleaned the dataset.
+2. Created calculated fields and key performance indicators.
+3. Developed PivotTables for different analysis categories.
+4. Created interactive charts and connected slicers.
+5. Designed a consolidated performance dashboard.
 
-The dashboard provides six major analytical views:
+## 5. Dashboard Visualisation
 
-1. Monthly Patient Admission Trend
-2. Patient Distribution by Age Group
-3. Patient Distribution by Department
-4. Patient Payment Status
-5. Patient Distribution by Gender
-6. Top Five Most Common Diagnoses
+The dashboard presents six major analytical areas:
+- Monthly admission trends
+- Patient distribution by age group
+- Departmental patient distribution
+- Payment status analysis
+- Gender distribution
+- Top five recorded diagnoses
 
 ![Hospital Performance Dashboard](SECURE_HEALTH_DASHBOARD/Dashboard_Image.png)
 
@@ -69,67 +72,42 @@ The dashboard provides six major analytical views:
 | Fully Paid Bill Value | GMD 4,568,527.32 |
 | Average Length of Stay | 4.81 days |
 | Average Insurance Coverage | 74.86% |
-| Fully Paid Patients | 564 |
-| Partially Paid Patients | 179 |
-| Pending Patients | 257 |
 
 ## 7. Key Insights
 
-### Patient Demographics
-- The 51–65 age group recorded the highest patient count at 235.
-- The 66 and above age group followed with 232 patients.
-- Female patients represented 51.2% of the dataset, while male patients represented 48.8%.
-
-### Departmental Analysis
-- General recorded the highest patient volume with 252 patients.
-- Emergency followed with 190 patients.
-- Neurology recorded the lowest patient volume with 94 patients.
-
-### Payment Analysis
-- 56.4% of patients were fully paid.
-- 17.9% were partially paid.
-- 25.7% had pending payments.
-
-### Diagnosis Analysis
-The five most frequently recorded diagnoses were:
-- Pneumonia: 43
-- Gastritis: 39
-- Dehydration: 38
-- Fracture: 37
-- Anemia: 37
-
-### Admission Trends
-Monthly admission activity fluctuated throughout 2024 and 2025, providing an opportunity to examine changes in patient volume over time.
+- A total of 1,000 patient records were analysed.
+- Female patients accounted for 512 records, while male patients accounted for 488.
+- The 51–65 age group recorded the highest patient count.
+- General Medicine recorded the highest departmental patient count.
+- 564 records were classified as fully paid, 179 as partially paid and 257 as pending.
+- Pneumonia was the most frequently recorded diagnosis among the five leading diagnoses.
 
 ## 8. Recommendations
 
-1. Strengthen payment follow-up procedures for pending and partially paid accounts.
-2. Review staffing and resource allocation in the General and Emergency departments.
-3. Use monthly admission patterns to support operational planning.
-4. Monitor patient demographics to support appropriate service planning.
-5. Maintain consistent data quality checks and reporting procedures.
+1. Monitor monthly admission patterns to support resource planning.
+2. Review departmental workloads to improve staff and resource allocation.
+3. Strengthen follow-up procedures for pending and partially paid bills.
+4. Use demographic trends to support patient-centred service planning.
+5. Continue monitoring key performance indicators through regular reporting.
 
 ## 9. Conclusion
 
-The Secure Health General Hospital Performance Dashboard demonstrates how Microsoft Excel can be used to transform hospital patient records into meaningful management insights.
+The Secure Health General Hospital Performance Dashboard demonstrates how Excel's data analysis and visualisation capabilities can support healthcare performance monitoring.
 
-Through KPI calculations, PivotTables, PivotCharts and interactive slicers, the project provides an accessible overview of patient activity and selected financial indicators.
-
-This project strengthened practical skills in data preparation, analytical reporting, spreadsheet modelling and dashboard development.
+By combining KPIs, PivotTables, PivotCharts and interactive slicers, the project provides a structured overview of hospital operations and financial indicators.
 
 ## 10. Project Files
 
-The project folder contains:
+The repository contains:
 
-- `Secure_Health_Dashboard.xlsx` — Excel dashboard workbook (retain privately until patient-level data has been safely removed).
-- `Dashboard_Image.png` — Dashboard screenshot.
-- `Introductory_Image.png` — Healthcare introductory visual.
-- `GitHub_ReadMe_File (1).docx` — Detailed project documentation.
+- `SECURE_HEALTH_DASHBOARD/Secure_Health_Dashboard.xlsx` — Privacy-safe Excel dashboard workbook.
+- `SECURE_HEALTH_DASHBOARD/Dashboard_Image.png` — Dashboard screenshot.
+- `SECURE_HEALTH_DASHBOARD/Introductory_Image.png` — Introductory project image.
+- `SECURE_HEALTH_DASHBOARD/GitHub_ReadMe_File (1).docx` — Project documentation.
 
-## 11. Project Information
+---
 
 **Project:** Secure Health General Hospital Performance Dashboard  
-**Period:** 2024–2025  
+**Period Analysed:** 2024–2025  
 **Tool:** Microsoft Excel  
-**Project Type:** Academic Data Analytics Assignment  
-**Author:** Mustapha Fatty
+**Project Type:** Healthcare Data Analysis and Visualisation
